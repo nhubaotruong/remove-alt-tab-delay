@@ -1,4 +1,4 @@
-import SwitcherPopup from "resource:///org/gnome/shell/ui/switcherPopup.js"
+import { SwitcherPopup } from "resource:///org/gnome/shell/ui/switcherPopup.js"
 
 const init = () => {
 }
