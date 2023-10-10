@@ -1,12 +1,12 @@
-const SwitcherPopup = imports.ui.switcherPopup;
+import SwitcherPopup from "resource:///org/gnome/shell/ui/switcherPopup.js"
 
-function init() {
+const init = () => {
 }
 
-function enable() {
+const enable = () => {
     SwitcherPopup.POPUP_DELAY_TIMEOUT = 0;
 }
 
-function disable() {
+const disable = () => {
     SwitcherPopup.POPUP_DELAY_TIMEOUT = 150;
 }
